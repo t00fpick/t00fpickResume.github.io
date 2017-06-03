@@ -8,12 +8,14 @@ header {
 	position: absolute;
 	left: 100px;
 	padding: 15px;
-	width: 100%;
+	max-width: 600px;
 	height: 200px;
 	text-align: center;
 	font-size: 2em;
 	
 }
+
+
 
 /* nav bar */
 #left-navbar {
@@ -31,6 +33,14 @@ header {
 	width: 75px;
 	position: absolute;
 	bottom: 0;
+}
+
+/* middle section */
+
+#main-content {
+	position: absolute;
+	left: 75px;
+	top: 200px;
 }
 
 
